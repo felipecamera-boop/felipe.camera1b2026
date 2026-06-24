@@ -9,6 +9,12 @@ header {
     padding: 10px;
 }
 
+
+header h1 {          
+      font-family: diplomata ;
+
+}
+
 nav a {
     color: #f5f8f8;
     text-decoration: none;
