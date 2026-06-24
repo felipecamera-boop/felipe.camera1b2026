@@ -9,10 +9,10 @@ header {
     padding: 10px;
 }
 
-
-header h1 {          
-      font-family: 'cinzel', serif;
-      font-weight: bold;
+h1 {  
+     font-family: 'bebas nue', sans-serif;
+     font-size: 48px;
+     letter-spacing: 2px;
 }
 
 nav a {
