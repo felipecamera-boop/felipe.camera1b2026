@@ -11,8 +11,8 @@ header {
 
 
 header h1 {          
-      font-family:cinzel bold;
-
+      font-family: 'cinzel', serif;
+      font-weight: bold;
 }
 
 nav a {
