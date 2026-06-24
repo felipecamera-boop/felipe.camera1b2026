@@ -1,5 +1,5 @@
 body {
-    background-color: #c23d3d;
+    background-color: #8f0f0f;
     color: #232423;
     font-family: sans-serif;
 }
@@ -16,7 +16,7 @@ nav a {
 }
 
 main {
-    background: #1e1e1e;
+    background: #af2929;
     padding: 20px;
     border-radius: 10px;
 }
@@ -24,5 +24,5 @@ main {
 footer {
     text-align: center;
     font-size: 12px;
-    color: gray;
+    color: rgb(253, 251, 251);
 }
