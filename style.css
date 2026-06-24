@@ -1,6 +1,6 @@
 body {
-    background-color: #8f0f0f;
-    color: #232423;
+    background-color: #e70d0df3;
+    color: #fbfcfb;
     font-family: sans-serif;
 }
 
@@ -16,7 +16,7 @@ nav a {
 }
 
 main {
-    background: #af2929;
+    background: #800808;
     padding: 20px;
     border-radius: 10px;
 }
