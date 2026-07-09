@@ -60,3 +60,30 @@ footer {
     display: inline-block;
     margin-bottom: 20px;
 }
+
+
+
+main img{
+    display: block;
+    margin: 25px auto;
+    width: 700px;
+    max-width: 100%;
+    border: 3px solid #d60000;
+    border-radius: 12px;
+    box-shadow:
+        0 0 0 4px white,
+        0 12px 30px rgba(0,0,0,0.7);
+    transition: all 0.3s ease;
+}
+
+main img:hover{
+    transform: scale(1.03);
+    box-shadow:
+        0 0 0 4px white,
+        0 18px 40px rgba(214,0,0,0.6);
+}
+
+main img:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 35px rgba(255, 0, 0, 0.45);
+}
