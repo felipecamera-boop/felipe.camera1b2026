@@ -125,4 +125,7 @@ main img:hover{
     line-height: 1.8;
     max-width: 900px;
     margin: auto;
+    border-bottom: 3px solid #ff2d2d;
+display: inline-block;
+padding-bottom: 8px;
 }
