@@ -1,5 +1,5 @@
 body {
-    background-color: #ac0505f3;
+    background-color: #141414f3;
     color: #f8f8f2;
     font-family: oswald;
 }
@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 main {
-    background: #df0707;
+    background: #a80707;
     padding: 20px;
     border-radius: 10px;
 }
