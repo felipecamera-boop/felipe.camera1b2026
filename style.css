@@ -106,20 +106,21 @@ nav a:hover{
 /* ========================= */
 
 .hero{
+.hero{
 
     margin-top:85px;
 
     height:88vh;
 
     background:
-
-    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
-
-    url("https://wallpapers.com/images/featured/neymar-pictures-z2vt5f2f4md4q6pn.jpg");
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.75)),
+    url("imagens/banner.jpg");
 
     background-size:cover;
 
-    background-position:center;
+    background-position:center center;
+
+    background-repeat:no-repeat;
 
     display:flex;
 
@@ -130,6 +131,8 @@ nav a:hover{
     text-align:center;
 
     padding:30px;
+
+}
 
 }
 
