@@ -115,7 +115,9 @@ nav a:hover{
 
     height:88vh;
 
-    background-image: url("imagens/banner.jpg");
+    background:
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.75)),
+    url("imagens/banner.jpg");
 
     background-size:cover;
 
@@ -135,7 +137,6 @@ nav a:hover{
 
 }
 
-}
 
 
 
