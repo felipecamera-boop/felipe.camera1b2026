@@ -24,37 +24,65 @@ body{
 
 header{
 
-    position:fixed;
-    top:0;
-    left:0;
+position:fixed;
 
-    width:100%;
+top:0;
+left:0;
 
-    background:#111;
+width:100%;
 
-    display:flex;
+display:flex;
 
-    justify-content:space-between;
+justify-content:space-between;
 
-    align-items:center;
+align-items:center;
 
-    padding:18px 70px;
+padding:18px 8%;
 
-    border-bottom:3px solid #d6b100;
+background:rgba(10,10,10,.70);
 
-    z-index:999;
+backdrop-filter:blur(18px);
+
+-webkit-backdrop-filter:blur(18px);
+
+border-bottom:1px solid rgba(255,215,0,.25);
+
+box-shadow:0 5px 25px rgba(0,0,0,.45);
+
+z-index:999;
+
+transition:.4s;
+
+}
 
 }
 
 .logo{
+.logo{
 
-    color:#FFD700;
+font-size:34px;
 
-    font-size:30px;
+font-weight:700;
 
-    font-weight:700;
+letter-spacing:2px;
 
-    letter-spacing:1px;
+color:#FFD700;
+
+cursor:pointer;
+
+transition:.35s;
+
+text-shadow:0 0 15px rgba(255,215,0,.4);
+
+}
+
+.logo:hover{
+
+transform:scale(1.06);
+
+text-shadow:0 0 25px rgba(255,215,0,.9);
+
+}
 
 }
 
@@ -66,35 +94,83 @@ nav{
 
 }
 
-nav a{
+nav a::before{
 
-    text-decoration:none;
+content:"";
 
-    color:white;
+position:absolute;
 
-    padding:12px 22px;
+left:50%;
 
-    border-radius:8px;
+bottom:0;
 
-    transition:.35s;
+width:0%;
 
-    font-weight:600;
+height:3px;
+
+background:#FFD700;
+
+transition:.35s;
+
+transform:translateX(-50%);
+
+border-radius:20px;
+
+}
+
+nav a:hover::before{
+
+width:70%;
+
+}
+
+}
+
+nav a::before{
+
+content:"";
+
+position:absolute;
+
+left:50%;
+
+bottom:0;
+
+width:0%;
+
+height:3px;
+
+background:#FFD700;
+
+transition:.35s;
+
+transform:translateX(-50%);
+
+border-radius:20px;
 
 }
 
 nav a:hover{
 
-    background:#FFD700;
+color:#FFD700;
 
-    color:#111;
+background:rgba(255,255,255,.05);
+
+}
+
+}
 
 }
 
 .ativo{
 
-    background:#FFD700;
+background:rgba(255,215,0,.15);
 
-    color:#111;
+color:#FFD700;
+
+border:1px solid rgba(255,215,0,.4);
+
+}
 
 }
 
@@ -104,19 +180,39 @@ nav a:hover{
 
 .banner{
 
-    margin-top:100px;
+.banner{
 
-    min-height:85vh;
+height:100vh;
 
-    display:flex;
+display:flex;
 
-    justify-content:space-between;
+justify-content:space-between;
 
-    align-items:center;
+align-items:center;
 
-    padding:70px;
+padding:0 8%;
 
-    gap:60px;
+margin-top:75px;
+
+background:
+
+linear-gradient(
+
+rgba(0,0,0,.75),
+
+rgba(0,0,0,.85)
+
+),
+
+url("https://images2.minutemediacdn.com/image/upload/c_crop,w_5472,h_3078,x_0,y_285/c_fill,w_1600,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_pt-BR_international_web/01jnmvvvg78tpjx9rfyv.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+background-attachment:fixed;
+
+}
 
 }
 
@@ -128,41 +224,81 @@ nav a:hover{
 
 .banner-texto h1{
 
-    font-size:70px;
+    .banner-texto h1{
 
-    color:#FFD700;
+font-size:95px;
 
-    margin-bottom:20px;
+font-weight:700;
+
+line-height:90px;
+
+margin-bottom:25px;
+
+color:#FFD700;
+
+text-shadow:
+
+0 0 20px rgba(255,215,0,.45);
+
+}
 
 }
 
 .banner-texto p{
 
-    font-size:20px;
+    .banner-texto p{
 
-    color:#ddd;
+font-size:22px;
 
-    line-height:35px;
+line-height:40px;
 
-    margin-bottom:40px;
+color:#f2f2f2;
+
+margin-bottom:45px;
+
+width:90%;
+
+}
 
 }
 
 .botao{
 
-    text-decoration:none;
+    .botao{
 
-    background:#FFD700;
+display:inline-block;
 
-    color:#111;
+background:#FFD700;
 
-    padding:18px 40px;
+color:#111;
 
-    border-radius:8px;
+text-decoration:none;
 
-    font-weight:bold;
+padding:18px 45px;
 
-    transition:.3s;
+border-radius:8px;
+
+font-size:18px;
+
+font-weight:700;
+
+transition:.4s;
+
+box-shadow:
+
+0 0 20px rgba(255,215,0,.35);
+
+}
+
+.botao:hover{
+
+transform:translateY(-5px);
+
+box-shadow:
+
+0 0 35px rgba(255,215,0,.8);
+
+}
 
 }
 
