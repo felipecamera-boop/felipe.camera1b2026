@@ -405,6 +405,52 @@ nav{
 
     grid-template-columns:1fr;
 
+    .tabela{
+
+width:100%;
+
+margin-top:35px;
+
+border-collapse:collapse;
+
+background:#171717;
+
+border-radius:15px;
+
+overflow:hidden;
+
+}
+
+.tabela th{
+
+background:#d4af37;
+
+color:black;
+
+padding:18px;
+
+font-size:18px;
+
+}
+
+.tabela td{
+
+padding:18px;
+
+border-bottom:1px solid #333;
+
+text-align:center;
+
+}
+
+.tabela tr:hover{
+
+background:#222;
+
+transition:.3s;
+
+}
+
 }
 
 }
