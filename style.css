@@ -105,7 +105,10 @@ nav a:hover{
 /* HERO */
 /* ========================= */
 
-.hero{
+/* ========================= */
+/* HERO */
+/* ========================= */
+
 .hero{
 
     margin-top:85px;
@@ -134,11 +137,15 @@ nav a:hover{
 
 }
 
-}
+
 
 .conteudo{
 
     max-width:900px;
+
+    position:relative;
+
+    z-index:2;
 
 }
 
